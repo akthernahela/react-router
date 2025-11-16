@@ -10,7 +10,14 @@ export default function Products() {
         <>
             <Header />
             <Main />
-        </>
+            <div className="container">
+                <div className="intro d-flex justify-content-between">
+                    <h2>I nostri prodotti</h2>
+                    <a href="#"><i className="bi bi-cart4 text-black fs-1"></i></a>
+                </div>
+                <hr />
 
+            </div>
+        </>
     )
 }
