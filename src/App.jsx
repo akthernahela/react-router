@@ -1,5 +1,4 @@
-import HomePage from "./shop/HomePage"
-import Home from "./shop/HomePage"
+import HomePage from "./shop/HomePage";
 
 function App() {
 
