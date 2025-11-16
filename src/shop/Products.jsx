@@ -8,6 +8,8 @@ export default function Products() {
     const [products, setProducts] = useState([]);
     useEffect(() => {
         axios.get(productsList)
+            .then
+            .catch
     }, []);
     return (
         <>
