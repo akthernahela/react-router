@@ -14,13 +14,10 @@ export default function Header() {
                                 <a className="nav-link" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Link</a>
+                                <a className="nav-link" aria-current="page" href="#">About us</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Link</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Link</a>
+                                <a className="nav-link" aria-current="page" href="#">Products</a>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
