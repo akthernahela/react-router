@@ -15,10 +15,10 @@ export default function Header() {
                                 <Link to="/" className="nav-link" aria-current="page">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">About us</a>
+                                <Link className="nav-link" aria-current="page" to="/aboutUs">About us</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">Products</a>
+                                <Link className="nav-link" aria-current="page" to="/products">Products</Link>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
