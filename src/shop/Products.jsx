@@ -26,12 +26,14 @@ export default function Products() {
                 <div className="row d-flex flex-wrap">
                     {
                         products.map(product => (
-                            <div className="card" key={product.id}>
-                                <img src={product.image} className="card-img-top p-3" alt="" />
-                                <div className="card-body">
-                                    <h5 className="card-title">{product.title}</h5>
-                                    <p className="card-text">{product.description}</p>
-                                    <a href="#" className="btn btn-dark"><i className="bi bi-cart-plus"></i></a>
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div className="card" key={product.id}>
+                                    <img src={product.image} className="card-img-top p-3" alt="" />
+                                    <div className="card-body">
+                                        <h5 className="card-title">{product.title}</h5>
+                                        <p className="card-text">{product.description}</p>
+                                        <a href="#" className="btn btn-dark"><i className="bi bi-cart-plus"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         ))
