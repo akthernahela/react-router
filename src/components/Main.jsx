@@ -18,9 +18,7 @@ export default function Main() {
                         neque ut aliquam, sapiente natus, nam autem.
                     </p>
                 </div>
-                <h2>I nostri prodotti</h2>
                 <hr />
-                <ul></ul>
             </main>
         </>
     )
