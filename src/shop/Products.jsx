@@ -4,9 +4,11 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 export default function Products() {
-    const prodcutsList = 'https://fakestoreapi.com/products';
+    const productsList = 'https://fakestoreapi.com/products';
     const [products, setProducts] = useState([]);
-    useEffect(() => { }, []);
+    useEffect(() => {
+        axios.get(productsList)
+    }, []);
     return (
         <>
             <Header />
