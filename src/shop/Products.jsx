@@ -23,7 +23,7 @@ export default function Products() {
                     <a href="#"><i className="bi bi-cart4 text-black fs-1"></i></a>
                 </div>
                 <hr />
-                <div className="row">
+                <div className="row d-flex flex-wrap">
                     {
                         products.map(product => (
                             <div className="card" key={product.id}>
