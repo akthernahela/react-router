@@ -26,7 +26,7 @@ export default function Products() {
                 <div className="row">
                     {
                         products.map(product => (
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 18rem;" key={product.id}>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
