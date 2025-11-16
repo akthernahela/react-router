@@ -27,6 +27,7 @@ export default function Products() {
                     {
                         products.map(product => (
                             <div className="card" key={product.id}>
+                                <img src={product.image} className="card-img-top p-3" alt="" />
                                 <div className="card-body">
                                     <h5 className="card-title">{product.title}</h5>
                                     <p className="card-text">{product.description}</p>
