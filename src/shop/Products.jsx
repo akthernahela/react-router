@@ -10,7 +10,8 @@ export default function Products() {
         axios.get(productsList)
             .then(response =>
                 setProducts(response.data))
-            .catch
+            .catch(error =>
+                console.error(error));
     }, []);
     return (
         <>
