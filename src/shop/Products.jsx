@@ -23,16 +23,16 @@ export default function Products() {
                     <a href="#"><i className="bi bi-cart4 text-black fs-1"></i></a>
                 </div>
                 <hr />
-                <div className="row d-flex flex-wrap">
+                <div className="row d-flex flex-wrap justify-content-around">
                     {
                         products.map(product => (
-                            <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                                 <div className="card h-100 d-flex flex-column" key={product.id}>
                                     <img src={product.image} className="card-img-top p-3 mx-auto" alt="" />
-                                    <div className="card-body">
+                                    <div className="card-body d-flex flex-column">
                                         <h5 className="card-title">{product.title}</h5>
                                         <p className="card-text">{product.description}</p>
-                                        <a href="#" className="btn btn-dark"><i className="bi bi-cart-plus"></i></a>
+                                        <a href="#" className="btn btn-dark mt-auto"><i className="bi bi-cart-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
