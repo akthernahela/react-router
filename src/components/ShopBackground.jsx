@@ -1,5 +1,5 @@
-import ShopBackground from '../assets/shop.jpg';
+import ShopBg from '../assets/shop.jpg';
 export default function ShopBackground() {
 
-    return (<img className='Components' src={ShopBackground} alt="" />)
+    return (<img className='Components' src={ShopBg} alt="" />)
 }
