@@ -1,6 +1,9 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 
+
 export default function Main() {
+
 
     return (
         <>
@@ -15,7 +18,8 @@ export default function Main() {
                     </p>
                 </div>
                 <h2>I nostri prodotti</h2>
-                <br />
+                <hr />
+                <ul></ul>
             </main>
         </>
     )
