@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 export default function Products() {
     const prodcutsList = 'https://fakestoreapi.com/products';
     const [products, setProducts] = useState([]);
-
+    useEffect(() => { }, []);
     return (
         <>
             <Header />
