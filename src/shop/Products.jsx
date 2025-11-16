@@ -26,11 +26,11 @@ export default function Products() {
                 <div className="row">
                     {
                         products.map(product => (
-                            <div class="card" style="width: 18rem;" key={product.id}>
-                                <div class="card-body">
-                                    <h5 class="card-title">{product.title}</h5>
-                                    <p class="card-text">{product.description}</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div className="card" key={product.id}>
+                                <div className="card-body">
+                                    <h5 className="card-title">{product.title}</h5>
+                                    <p className="card-text">{product.description}</p>
+                                    <a href="#" className="btn btn-dark"><i className="bi bi-cart-plus"></i></a>
                                 </div>
                             </div>
                         ))
