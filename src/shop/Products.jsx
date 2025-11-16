@@ -23,6 +23,7 @@ export default function Products() {
                     <a href="#"><i className="bi bi-cart4 text-black fs-1"></i></a>
                 </div>
                 <hr />
+                <div className="row"></div>
                 <div class="card" style="width: 18rem;">
 
                     <div class="card-body">
