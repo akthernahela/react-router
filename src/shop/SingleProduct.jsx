@@ -4,8 +4,11 @@ import axios from "axios";
 
 export default function SingleProduct() {
     const { id } = useParams()
-    const [product, setProduct] = useState({})
+    const [product, setProduct] = useState({});
 
+    function findProduct() {
+
+    }
 
     return (
         <>
