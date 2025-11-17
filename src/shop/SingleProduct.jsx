@@ -9,7 +9,7 @@ export default function SingleProduct() {
     const [product, setProduct] = useState({});
 
     function findProduct() {
-        axios.get(`https://fakestoreapi.com/products${id}`)
+        axios.get(`https://fakestoreapi.com/products/${id}`)
             .then(response =>
                 setProduct(response.data))
             .catch(error =>
