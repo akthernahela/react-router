@@ -24,6 +24,7 @@ export default function SingleProduct() {
             <Header />
             <Main />
             <div className="container">
+                <div className="row"></div>
                 <div className="col">
                     <div className="card w-25 h-100 d-flex flex-column" key={product.id}>
                         <img src={product.image} className="card-img-top p-3 mx-auto" alt="" />
