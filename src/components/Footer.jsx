@@ -1,4 +1,12 @@
 export default function Footer() {
 
-    return ()
+    return (
+        <footer>
+            <div className="row">
+                <div className="col"></div>
+                <div className="col"></div>
+                <div className="col"></div>
+            </div>
+        </footer>
+    )
 }
