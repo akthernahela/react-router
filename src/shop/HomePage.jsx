@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import ShopBackground from "../components/ShopBackground";
+import Footer from "../components/Footer";
 
 
 export default function HomePage() {
@@ -10,6 +11,7 @@ export default function HomePage() {
             <div className="card">
                 <ShopBackground />
             </div>
+            <Footer />
         </>
 
     )
