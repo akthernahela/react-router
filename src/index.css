@@ -10,3 +10,9 @@
 .card-title {
     height: 120px;
 }
+
+footer {
+    background-color: rgb(255, 132, 153);
+    color: white;
+    height: 300px;
+}

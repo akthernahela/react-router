@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Main from "../components/Main";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Footer from "../components/Footer";
 
 export default function Products() {
     const productsList = 'https://fakestoreapi.com/products';
@@ -40,6 +41,7 @@ export default function Products() {
                     }
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
