@@ -18,10 +18,6 @@ export default function SingleProduct() {
 
     return (
         <>
-            <h1>Id: {id}</h1>
-            <h2>{product.title}</h2>
-            <p>{product.price} €</p>
-            <img src={product.image} alt={product.title} width={200} />
         </>
     )
 }
