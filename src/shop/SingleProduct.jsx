@@ -4,6 +4,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Main from "../components/Main";
+import Footer from "../components/Footer";
 
 
 export default function SingleProduct() {
@@ -23,7 +24,7 @@ export default function SingleProduct() {
         <>
             <Header />
             <Main />
-            <div className="container">
+            <div className="container my-5">
                 <div className="row">
                     <div className="col d-flex justify-content-center">
                         <div className="card w-75 h-100 d-flex flex-column" key={product.id}>
@@ -41,6 +42,7 @@ export default function SingleProduct() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
