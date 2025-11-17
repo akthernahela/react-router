@@ -26,10 +26,12 @@ export default function SingleProduct() {
             <div className="container">
                 <div className="row">
                     <div className="col d-flex justify-content-center">
-                        <div className="card h-100 d-flex flex-column" key={product.id}>
+                        <div className="card w-75 h-100 d-flex flex-column" key={product.id}>
                             <img src={product.image} className="card-img-top p-3 mx-auto" alt="" />
                             <div className="card-body d-flex flex-column">
-                                <h5 className="card-title">{product.title}</h5>
+                                <h3 className="card-title">{product.title}</h3>
+                                <h6 className="card-text">Category: {product.category}</h6>
+                                <p className="card-text mt-1">{product.description}</p>
                                 <p className="card-text mt-3">Price: {product.price} €</p>
                                 <Link className='btn btn-dark mt-auto' to="/products">
                                     <i className="bi bi-cart-plus"></i>
