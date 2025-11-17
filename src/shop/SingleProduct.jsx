@@ -1,1 +1,4 @@
-export default function SingleProduct() { }
+export default function SingleProduct() {
+
+    return ()
+}
