@@ -6,3 +6,7 @@
     width: 200px;
     object-fit: contain;
 }
+
+.card-title {
+    height: 120px;
+}

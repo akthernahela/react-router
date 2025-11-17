@@ -31,7 +31,7 @@ export default function Products() {
                                     <img src={product.image} className="card-img-top p-3 mx-auto" alt="" />
                                     <div className="card-body d-flex flex-column">
                                         <h5 className="card-title">{product.title}</h5>
-                                        <p className="card-text">{product.description}</p>
+                                        <p className="card-text mt-3">Price: {product.price} €</p>
                                         <a href="#" className="btn btn-dark mt-auto"><i className="bi bi-cart-plus"></i></a>
                                     </div>
                                 </div>
