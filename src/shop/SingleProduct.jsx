@@ -5,9 +5,10 @@ import axios from "axios";
 export default function SingleProduct() {
     const { id } = useParams()
     const [product, setProduct] = useState({});
+    const productsList = 'https://fakestoreapi.com/products';
 
     function findProduct() {
-
+        axios.ge
     }
 
     return (
