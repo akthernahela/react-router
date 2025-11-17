@@ -14,6 +14,7 @@ export default function SingleProduct() {
             .catch(error =>
                 console.error(error));
     }
+    useEffect(findProduct, [])
 
     return (
         <>
