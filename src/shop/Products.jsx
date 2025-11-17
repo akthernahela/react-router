@@ -3,6 +3,7 @@ import Main from "../components/Main";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Footer from "../components/Footer";
+import { Link } from 'react-router-dom';
 
 export default function Products() {
     const productsList = 'https://fakestoreapi.com/products';
@@ -33,7 +34,9 @@ export default function Products() {
                                     <div className="card-body d-flex flex-column">
                                         <h5 className="card-title">{product.title}</h5>
                                         <p className="card-text mt-3">Price: {product.price} €</p>
-                                        <a href="#" className="btn btn-dark mt-auto"><i className="bi bi-cart-plus"></i></a>
+                                        <Link className='btn btn-dark mt-auto' to={`/products/${product.id}`}>
+                                            <i className="bi bi-cart-plus"></i>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
