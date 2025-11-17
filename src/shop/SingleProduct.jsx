@@ -18,9 +18,7 @@ export default function SingleProduct() {
 
     return (
         <>
-            {
-                product.map(item =>)
-            }
+
         </>
     )
 }
