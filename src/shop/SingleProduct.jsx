@@ -8,7 +8,11 @@ export default function SingleProduct() {
     const productsList = 'https://fakestoreapi.com/products';
 
     function findProduct() {
-        axios.ge
+        axios.get(productsList)
+            .then(response =>
+                setProduct(response.data))
+            .catch(error =>
+                console.error(error));
     }
 
     return (
