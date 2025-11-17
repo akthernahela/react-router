@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
+import Main from "../components/Main";
 
 
 export default function SingleProduct() {
@@ -19,6 +21,8 @@ export default function SingleProduct() {
 
     return (
         <>
+            <Header />
+            <Main />
             <div className="container">
                 <div className="col">
                     <div className="card w-25 h-100 d-flex flex-column" key={product.id}>
